@@ -1,0 +1,83 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+body{
+    font-family: 'poppins' , sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: end;
+}
+ul{
+    display: inline-block;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    font-size: 20px;
+}
+nav a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 25px;
+}
+.countainer{
+    margin: auto;
+    max-width: 1300px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.descreption{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    padding: 30px;
+    height:570px;
+    padding: 50px;
+    padding-top: 0px;
+}
+.col-2 h1{
+    font-size:40px;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+.btn-ex{
+    display: inline-block;
+    margin-top: 20px;
+    background-color: rgb(255, 115, 0);
+    border-radius: 16px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.5s;
+}
+.btn-ex:hover{
+    padding-left: 30px;
+    font-size: 16px;
+    background-color: rgb(193, 80, 14);
+}

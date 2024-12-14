@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins' , sans-serif;
+}
+.descreption{
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+}
+.des{
+    margin-top: auto;
+    font-size: 30px ;
+    text-align: center;
+    align-items: center;
+    margin-top: 200px;
+}
